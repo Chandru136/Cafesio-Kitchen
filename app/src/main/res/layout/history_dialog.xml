@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/card"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:paddingBottom="25dp"
+    android:background="@drawable/order_item_bg"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/item0"
+            android:visibility="visible"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/orderID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.05"
+                android:text="AKKBISDDFB6516"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/orderStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.03"
+                android:text="Prepared"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <View
+            android:visibility="visible"
+            android:id="@+id/v0"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="#848484"/>
+
+        <RelativeLayout
+            android:id="@+id/item1"
+            android:visibility="visible"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item1Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:letterSpacing="0.03"
+                android:text="Dosa"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x 3"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/black"
+                android:letterSpacing="0.03"
+                android:textSize="17sp"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/item1Count"/>
+
+        </RelativeLayout>
+
+        <View
+            android:visibility="visible"
+            android:id="@+id/v1"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#848484"/>
+
+        <RelativeLayout
+            android:id="@+id/item2"
+            android:visibility="visible"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item2Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:letterSpacing="0.03"
+                android:text="Dosa"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x 3"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/black"
+                android:letterSpacing="0.03"
+                android:textSize="17sp"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/item2Count"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/v2"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#848484"/>
+
+        <RelativeLayout
+            android:id="@+id/item3"
+            android:visibility="visible"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dosa"
+                android:textColor="@color/black"
+                android:letterSpacing="0.03"
+                android:textSize="17sp"
+                android:layout_marginStart="30dp"
+                android:id="@+id/item3Name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x 3"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/black"
+                android:letterSpacing="0.03"
+                android:textSize="17sp"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/item3Count"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/v3"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#848484"/>
+
+        <RelativeLayout
+            android:id="@+id/item4"
+            android:visibility="visible"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dosa"
+                android:textColor="@color/black"
+                android:letterSpacing="0.03"
+                android:textSize="17sp"
+                android:layout_marginStart="30dp"
+                android:id="@+id/item4Name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x 3"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/black"
+                android:letterSpacing="0.03"
+                android:textSize="17sp"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/item4Count"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/v4"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#848484"/>
+
+        <RelativeLayout
+            android:id="@+id/item5"
+            android:visibility="visible"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dosa"
+                android:textColor="@color/black"
+                android:letterSpacing="0.03"
+                android:textSize="17sp"
+                android:layout_marginStart="30dp"
+                android:id="@+id/item5Name"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x 3"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/black"
+                android:letterSpacing="0.03"
+                android:textSize="17sp"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/item5Count"/>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/v5"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#848484"/>
+
+        <com.skydoves.elasticviews.ElasticLayout
+            android:id="@+id/closeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/button_bg"
+            app:layout_duration="500"
+            app:layout_scale="1.02">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Close"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </com.skydoves.elasticviews.ElasticLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

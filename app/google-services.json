@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "858439659955",
+    "firebase_url": "https://cafesio-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cafesio",
+    "storage_bucket": "cafesio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858439659955:android:0d559a4a2c4908d224dbc6",
+        "android_client_info": {
+          "package_name": "com.cafesio.kitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858439659955-2i59f0kamvha2b4eqcrjs9bml5f3pqpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhxwXPBpEXWmLYXD4kX2iCh-Hql-lNrno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858439659955-2i59f0kamvha2b4eqcrjs9bml5f3pqpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
